@@ -5,7 +5,7 @@ import { UilScenery } from "@iconscout/react-unicons";
 import { UilPlayCircle } from "@iconscout/react-unicons";
 import { UilLocationPoint } from "@iconscout/react-unicons";
 import { UilSchedule } from "@iconscout/react-unicons";
-import { UilTimes } from "@iconscout/react-unicons";
+import { UilTimes } from "@iconscout/react-unicons";  // for cross(to deselect)
 
 
 const PostShare = () => {
@@ -54,7 +54,7 @@ const PostShare = () => {
             />
           </div>
         </div>
-      {image && (
+      {image && (   // If image is true 
 
         <div className="previewImage">
           <UilTimes onClick={()=>setImage(null)}/>
