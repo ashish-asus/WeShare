@@ -48,3 +48,8 @@
   background: transparent;
   border: 2px solid var(--orange);
 }
+
+::-webkit-scrollbar{ /* To hide scrollBar completely */
+  display: none;
+}
+
